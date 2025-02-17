@@ -8,7 +8,7 @@ import ProjectList from "@/components/projects";
 import RenderModel from "@/components/RenderModel";
 import dynamic from "next/dynamic";
 
-const StaffModel = dynamic(() => import("@/components/models/staff"), {
+const StaffModel = dynamic(() => import("@/components/models/Staff"), {
 	ssr: false,
 });
 
