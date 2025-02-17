@@ -33,7 +33,7 @@ export default function Home() {
 					<h1 className="font-bold text-xl xs:text-2xl sm:text-4xl lg:text-6xl text-accent whitespace-nowrap">
 						Nguyen Trong Hoai Vinh
 					</h1>
-					<p className="font-light text-foreground text-2xl mt-4">
+					<p className="font-light text-foreground text-lg md:text-2xl mt-4">
 						Intern / Front-End ReactJS/NextJS
 					</p>
 				</div>

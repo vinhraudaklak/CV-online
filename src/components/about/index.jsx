@@ -58,12 +58,12 @@ const AboutDetails = () => {
 					<p className="font-normal text-xs sm:text-sm md:text-base w-full">
 						- Là một người trái ngành mong muốn phát triển bản thân,
 						không ngừng cố gắng học hỏi và cập nhật để trở thành một
-						lập trình viên chuyên nghiệp. <br /> - Mong muốn tìm kiếm
-						cơ hội để học hỏi và cải thiện kỹ năng trong môi trường
-						chuyên nghiệp, để có thể đóng góp cho công ty. <br />{" "}
-						- Tính cách hòa đồng, dễ thích nghi với môi trường. Lắng
-						nghe, rút kinh nghiệm và sẵn sàng hợp tác với đồng
-						nghiệp.
+						lập trình viên chuyên nghiệp. <br /> - Mong muốn tìm
+						kiếm cơ hội để học hỏi và cải thiện kỹ năng trong môi
+						trường chuyên nghiệp, để có thể đóng góp cho công ty.{" "}
+						<br /> - Tính cách hòa đồng, dễ thích nghi với môi
+						trường. Lắng nghe, rút kinh nghiệm và sẵn sàng hợp tác
+						với đồng nghiệp.
 					</p>
 				</ItemLayout>
 
@@ -79,7 +79,9 @@ const AboutDetails = () => {
 					/>
 				</ItemLayout>
 
-				<ItemLayout className={"col-span-6 flex flex-col"}>
+				<ItemLayout
+					className={"col-span-full md:col-span-6 flex flex-col"}
+				>
 					<h2 className="text-xl md:text-4xl text-accent text-left w-full capitalize font-semibold">
 						Projects
 					</h2>
@@ -89,26 +91,38 @@ const AboutDetails = () => {
 							className="cursor-pointer hover:text-accent"
 							href="https://github.com/vinhraudaklak/krist-shop"
 						>
-							https://github.com/vinhraudaklak/krist-shop
+							<strong>- Wed Shop-Fashion:</strong>
+							<p className="break-words">
+								https://github.com/vinhraudaklak/krist-shop
+							</p>
 						</Link>
 						<Link
 							target="_blank"
 							className="cursor-pointer hover:text-accent"
 							href="https://github.com/vinhraudaklak/tailwindcss-coffee-style "
 						>
-							https://github.com/vinhraudaklak/tailwindcss-coffee-style
+							<strong>- Wed Page-coffee:</strong>
+
+							<p className="break-words">
+								https://github.com/vinhraudaklak/tailwindcss-coffee-style
+							</p>
 						</Link>
 						<Link
 							target="_blank"
 							className="cursor-pointer hover:text-accent"
 							href="https://github.com/vinhraudaklak/krist-shop"
 						>
-							https://github.com/vinhraudaklak/krist-shop
+							<strong>- Wed CV-online:</strong>
+							<p className="break-words">
+								https://github.com/vinhraudaklak/CV-online?tab=readme-ov-file
+							</p>
 						</Link>
 					</div>
 				</ItemLayout>
 
-				<ItemLayout className={"col-span-6 flex flex-col"}>
+				<ItemLayout
+					className={"col-span-full md:col-span-6 flex flex-col"}
+				>
 					<h2 className="text-xl md:text-4xl text-accent text-left w-full capitalize font-semibold">
 						Learning sources
 					</h2>
