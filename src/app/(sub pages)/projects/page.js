@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 import bg from "../../../../public/background/projects-background.png";
@@ -5,9 +7,10 @@ import { projectsData } from "@/app/data";
 import ProjectList from "@/components/projects";
 import RenderModel from "@/components/RenderModel";
 import dynamic from "next/dynamic";
-// import StaffModel from "@/components/models/staff";
 
-const StaffModel = dynamic(() => import("@/components/models/staff"), {ssr: false})
+const StaffModel = dynamic(() => import("@/components/models/staff"), {
+	ssr: false,
+});
 
 export default function Home() {
 	return (

@@ -56,12 +56,12 @@ const AboutDetails = () => {
 						introduce
 					</h2>
 					<p className="font-normal text-xs sm:text-sm md:text-base w-full">
-						-Là một người trái ngành mong muốn phát triển bản thân,
+						- Là một người trái ngành mong muốn phát triển bản thân,
 						không ngừng cố gắng học hỏi và cập nhật để trở thành một
-						lập trình viên chuyên nghiệp. <br /> -Mong muốn tìm kiếm
+						lập trình viên chuyên nghiệp. <br /> - Mong muốn tìm kiếm
 						cơ hội để học hỏi và cải thiện kỹ năng trong môi trường
 						chuyên nghiệp, để có thể đóng góp cho công ty. <br />{" "}
-						-Tính cách hòa đồng, dễ thích nghi với môi trường. Lắng
+						- Tính cách hòa đồng, dễ thích nghi với môi trường. Lắng
 						nghe, rút kinh nghiệm và sẵn sàng hợp tác với đồng
 						nghiệp.
 					</p>

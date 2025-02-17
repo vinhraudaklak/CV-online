@@ -36,7 +36,7 @@ export const projectsData = [
     name: "CV-online",
     description: "Wed CV Online Personal",
     date: "2025-02-8",
-    demoLink: "https://budgetplanner.example.com",
+    demoLink: "https://github.com/vinhraudaklak/CV-online?tab=readme-ov-file",
   },
  
 ];
