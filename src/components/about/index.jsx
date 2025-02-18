@@ -127,11 +127,15 @@ const AboutDetails = () => {
 						Learning sources
 					</h2>
 					<div className="flex justify-start gap-2">
-						<Dot strokeWidth="8px" />
+						<div>
+							<Dot strokeWidth="8px" />
+						</div>
 						<p>Mentored by a Senior Developer</p>
 					</div>
 					<div className="flex justify-start gap-2">
-						<Dot strokeWidth="8px" />
+						<div>
+							<Dot strokeWidth="8px" />
+						</div>
 						<p>Learn HTML, CSS, JavaScript, ReactJS from F8.</p>
 					</div>
 					<div className="flex justify-start gap-2">
@@ -145,7 +149,9 @@ const AboutDetails = () => {
 						</p>
 					</div>
 					<div className="flex justify-start gap-2">
-						<Dot strokeWidth="8px" />
+						<div>
+							<Dot strokeWidth="8px" />
+						</div>
 						<p>Refer to documents on Google/Github...</p>
 					</div>
 				</ItemLayout>
